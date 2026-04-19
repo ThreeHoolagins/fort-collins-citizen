@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://threehoolagins.github.io/fort-collins-citizen'
 locale = 'en-us'
 title = 'The Fort Collins Citizen'
 theme = 'archie' 
