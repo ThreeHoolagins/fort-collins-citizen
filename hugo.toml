@@ -1,0 +1,40 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'The Fort Collins Citizen'
+theme = 'archie' 
+copyright = "© Caleb Cunningham"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[pagination]
+  pagerSize = 3 # articles per page
+
+[params]
+	mode="auto" # color-mode → light,dark,toggle or auto
+	# useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "A concerned citizen of the united states located in fort collins colorado."
+	# mathjax = true # enable MathJax support
+	# katex = true # enable KaTeX support
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
